@@ -1,0 +1,26 @@
+
+.box {
+    position: absolute;
+    padding-top: 15px;
+    height: 500px; /* Высота блока */
+    width: 600px; /* Ширина блока */
+    overflow: none; /* Добавляем полосы прокрутки */
+    padding-left: 15px; /* Отступ от текста слева */
+    background-color: rgb(248, 206, 143); 
+   }
+   .t {
+    margin: 20px; /* Отступы вокруг элемента */
+    position: relative; /* Относительное позиционирование */
+    left: 35px; /* Положение от левого края */
+    color: rgb(255, 174, 0); /* Цвет символа */
+    padding-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    
+    width: 350px; /* Ширина блока */
+    min-height: 150px;
+    word-wrap: break-word;
+    padding-left: 15px; /* Отступ от текста слева */
+    padding-right: 15px; 
+    border: 2px solid rgb(255, 0, 0); /* Параметры линии */
+}
+   
